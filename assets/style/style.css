@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Slabo 27px;
+    src: url(../font/Slabo27px-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../font/OpenSans-Italic-VariableFont_wdth\,wght.ttf) format('ttf');
+}
+body{
+    background-image: url(../img/fond.png);
+    font-size: 1em;
+}
+h3 {
+    font-family: Slabo 27px;
+    font-size: 2.5em;
+}
+header{
+    margin-top: 30px;
+    height: 100px;
+    background-color: #34B1B2;
+    border-top:5px solid #36A0A5;
+    border-bottom:5px solid #36A0A5;
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+.art1{
+    width: 600px;
+    height: 400px;
+    margin-left: 30%;
+}
+.hart1{
+    display: flex;
+    justify-content: center;
+}
+.dart1{
+    display: flex;
+    text-align: center;
+}
+.artimg{
+    width: 45%;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+.sec1{
+    display: inline-block;
+    width: 50%;
+    background-color: #B6DEDC;
+    padding: 20px;
+    margin-left: 20%;
+    text-align: center;
+}
+.aside{
+    width: 17%;
+    background-color: #34B1B2;
+    padding: 10px;
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+}
+.imgd{
+    border-radius: 50%;
+    float: left;
+}
+footer img{
+    width: 50px;
+    height: 60px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    width: 70%;
+    margin-left: 10%;
+}
